@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+
+
+ol {
+    width: 400px;
+    margin: auto;
+}
+
+li {
+    list-style-position: inside;
+    padding: 15px;
+    color: rgb(246, 248, 248);
+    transition: all ease-in .2s}
+
+    li:first-child{
+        background-color: black;
+    }
+    li:nth-child(2){
+        background-color: grey;
+    }
+    li:nth-child(3){
+        background-color: rgb(222, 59, 9);
+    }
+    li:nth-child(4){
+        background-color: rgb(12, 186, 47);
+    }
+    li:nth-child(5){
+        background-color: rgb(200, 6, 6);
+    }
+    li:nth-child(6){
+        background-color: rgb(234, 234, 7);
+    }
+    li:nth-child(7){
+        background-color: rgb(20, 2, 219);
+    }
+    li:nth-child(8){
+        background-color: rgb(171, 8, 152);
+    }
+    li:nth-child(9){
+        background-color: rgb(14, 200, 206);
+    }
+    li:nth-child(10){
+        background-color: rgb(189, 6, 79);
+    }
+    li:nth-child(11){
+        background-color: rgb(74, 192, 35);
+    }
+    li:nth-child(12){
+        background-color: rgb(89, 72, 236);
+    }
+    li:nth-child(13){
+        background-color: rgb(3, 74, 4);
+    }
+    li:nth-child(14){
+        background-color: rgb(11, 222, 0);
+    }
+    li:nth-child(15){
+        background-color: rgb(197, 14, 210);
+    }
+
+    li:last-child{
+        background-color: chocolate;
+    }
+
+    li:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+        color: #000000;
+        transition: all ease-in .2s}
